@@ -1,7 +1,3 @@
-Here’s a polished and informative **README.md** for your Soundflow project, Abdhija! It highlights your tech stack, features, setup instructions, and future plans—all tailored to your current progress and goals.
-
----
-
 ## 🎧 Soundflow
 
 **Soundflow** is a dynamic music discovery web app that lets users explore trending songs, search YouTube videos, and interact with content using a heart-based like system. Built with Node.js, EJS, and MongoDB, it emphasizes smooth user experience, persistent likes, and voice-powered search.
