@@ -11,6 +11,8 @@ const { connectDB, getDB } = require('./utils/databaseutils'); // ✅ import the
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
+app.use('/uploads', express.static('uploads'));
+
 app.use('/public', express.static('public'));
 
 // Set EJS as template engine
@@ -39,7 +41,9 @@ app.get("/", async (req, res) => {
     const collection = db.collection("favorites");
     const favs = await collection.find().toArray();
 
-    res.render("home", { trendingSongs, r: false, favorites: favs });
+    res.render("home", { trendingSongs, r: false, favorites: favs ,
+      title: "Soundflow - Home"
+    });
   } catch (err) {
     console.error(err);
     res.status(500).render("home", { trendingSongs: [], r: false });
@@ -123,7 +127,9 @@ app.get("/favorites", async (req, res) => {
 
 // About page
 app.get("/about", (req, res) => {
-  res.render("about");
+  res.render("about",{
+    title: "About"
+  });
 });
 
 // ✅ Connect DB first, then start server
