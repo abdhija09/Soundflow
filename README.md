@@ -91,3 +91,8 @@ Created by Abdhija Nigam
 Powered by Node.js,Express.js, MongoDB, and YouTube Data API
 
 ---
+<img width="1919" height="1075" alt="image" src="https://github.com/user-attachments/assets/af8b7954-e372-4939-a290-c537efa36919" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/04837d43-3437-4452-9004-7f3b34734054" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/6f73f2b6-5d5f-4ef4-ba33-66b548c62666" />
+
+
